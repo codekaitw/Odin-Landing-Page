@@ -9,6 +9,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    flex: 1;
 }
 
 ul {
@@ -60,8 +61,8 @@ section {
 }
 
 img {
-    width: 400px;
-    height: 200px;
+    width: 480px;
+    height: 240px;
 }
 
 .hero-text > h1 {
@@ -110,4 +111,27 @@ img {
 .container p {
     font-size: 12px;
     width: 150px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    align-items: center;
+}
+
+.quote > p {
+    width: 50%;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    text-align: center;
+}
+
+.quote > p + p {
+    font-weight: bold;
+    text-align: right;
+    font-size: 18px;
+    margin-top: 8px;
 }

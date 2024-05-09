@@ -85,3 +85,29 @@ img {
     font-weight: bold;
     margin-top: 8px;
 }
+
+.info > h2 {
+    font-size: 36px;
+    font-weight: extrabold;
+    color: #1f2937;
+    text-align: center;
+    padding: 32px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.container img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border: 4px solid #3882f6;
+}
+
+.container p {
+    font-size: 12px;
+    width: 150px;
+}
